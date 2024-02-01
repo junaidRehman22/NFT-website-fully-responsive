@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+img{
+    object-fit: cover;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+nav{
+    margin: 0px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav a.logo{
+    font-size: 40px;
+    color: #0f2182;
+    font-weight: 600;
+}
+
+nav .links a:not(:last-child){
+    margin-right: 24px;
+}
+
+nav .logins button{
+    padding: 8px 14px;
+    border: none;
+    background-color: transparent;
+}
+
+nav .logins button.signup{
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 14px;
+}
+
+header{
+    padding: 0px 80px;
+    height:calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .left{
+    width: 600px;
+}
+
+header .left h1{
+font-size: 70px;
+}
+
+header .left h1 span{
+    color: #0f2182;
+}
+
+header .left p{
+    color: #777;
+    margin: 40px 0px;
+}
+
+header .left a{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-radius: 60px;
+    padding: 8px;
+}
+
+header .left a i{
+    background-color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+header .left a span{
+    color: #fff;
+    margin-left: 14px;
+}
+
+header img{
+    width: 600px;
+    border-radius: 50%;
+
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">NFT</a>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Blog</a>
+            <a href="#">About Us</a>
+        </div>
+        <div class="logins">
+            <button class="signup">Get Started</button>
+            <button>Login</button>
+        </div>
+    </nav>
+    <header>
+        <div class="left">
+            <h1>Let's Buy Some <span>NFT's</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci officiis rerum quidem quam </p>
+            <a href="#">
+                <i class='bx bx-basket'></i>
+                <span>Buy Now</span>
+            </a>
+        </div>
+        <img src="./assets/nft.jpg">
+    </header>
+</body>
+</html>
